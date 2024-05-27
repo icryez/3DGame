@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "github.com/icryez/3DGame/src/system"
 
 func main(){
-	fmt.Println("YOOOOOOOOOOOOOOOOO")
+	system.CreateWindowForEnv()
 }
