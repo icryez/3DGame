@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <wayland-client.h>
 
-
 int connectToWayland() {
   struct wl_display *display = wl_display_connect(NULL);
   if (!display) {
