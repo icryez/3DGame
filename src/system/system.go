@@ -1,7 +1,8 @@
 package system
 
-// #cgo CFLAGS: -g -Wall
+// #cgo CFLAGS: -g -Wall 
 // #include "system.h"
+// #cgo LDFLAGS: -lwayland-client
 import "C"
 import (
 	"fmt"
